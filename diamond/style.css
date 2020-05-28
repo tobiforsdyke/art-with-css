@@ -1,0 +1,127 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #233637;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Diamond 1 */
+
+.diamond {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    margin: 50px;
+}
+
+.diamond span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid red;
+    border-bottom: 50px solid blue;
+    border-left: 50px solid transparent;
+}
+
+.diamond span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid yellow;
+    border-right: 50px solid red;
+    border-bottom: 50px solid blue;
+    border-left: 50px solid darkgreen;
+}
+
+.diamond span:nth-child(3) {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 50px solid yellow;
+    border-right: 50px solid red;
+    border-bottom: 50px solid blue;
+    border-left: 50px solid darkgreen;
+}
+
+.diamond span:nth-child(4) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid yellow;
+    border-right: 50px solid red;
+    border-bottom: 50px solid blue;
+    border-left: 50px solid darkgreen;
+}
+
+/* Diamond 2 */
+
+.diamond2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: rotate(55deg);
+    margin: 50px;
+}
+
+.diamond2 span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #5de7ff;
+    border-bottom: 50px solid #40d8ec;
+    border-left: 50px solid transparent;
+}
+
+.diamond2 span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #5de7ff;
+    border-right: 50px solid #31c9dd;
+    border-bottom: 50px solid #43cee0;
+    border-left: 50px solid #49dff3;
+}
+
+.diamond2 span:nth-child(3) {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #30b8ca;
+    border-right: 50px solid #2cacbd;
+    border-bottom: 50px solid #249aaa;
+    border-left: 50px solid #2594a3;
+}
+
+.diamond2 span:nth-child(4) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #2bafc0;
+    border-right: 50px solid #28a4b4;
+    border-bottom: 50px solid #2594a3;
+    border-left: 50px solid #2aa1b1;
+}
