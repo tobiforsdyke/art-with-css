@@ -1,0 +1,192 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #82ccfd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.rainbow {
+    width: 400px;
+    height: 250px;
+    background-color: red;
+    border: 30px solid red;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    box-shadow: 0 0 0 20px orange;
+    border-bottom: 0;
+}
+*/
+.rainbow {
+    width: 500px;
+    height: 280px;
+    position: relative;
+}
+
+.red {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 30px solid red;
+    border-right: 30px solid red;
+    border-left: 30px solid red;
+    border-bottom: 0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.orange {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 60px solid orange;
+    border-right: 60px solid orange;
+    border-left: 60px solid orange;
+    border-bottom: 0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.yellow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 90px solid yellow;
+    border-right: 90px solid yellow;
+    border-left: 90px solid yellow;
+    border-bottom: 0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.green {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 120px solid green;
+    border-right: 120px solid green;
+    border-left: 120px solid green;
+    border-bottom: 0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.blue {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 150px solid blue;
+    border-right: 150px solid blue;
+    border-left: 150px solid blue;
+    border-bottom: 0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.purple {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 180px solid purple;
+    border-right: 180px solid purple;
+    border-left: 180px solid purple;
+    border-bottom: 0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.pink {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-top: 210px solid #fa92a3;
+    border-right: 210px solid #fa92a3;
+    border-left: 210px solid #fa92a3;
+    border-bottom: 0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.cloud1 {
+    width: 270px;
+    height: 120px;
+    position: absolute;
+    bottom: -10%;
+    left: -8%;
+    overflow: hidden;
+}
+
+.cloud-parts {
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    right: 30px;
+}
+
+.cloud-parts:before {
+    content: '';
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10px;
+    left: -50px;
+}
+
+.cloud-parts:after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10px;
+    right: -25px;
+}
+
+.cloud2 {
+    width: 270px;
+    height: 100px;
+    position: absolute;
+    bottom: -10%;
+    right: -8%;
+    overflow: hidden;
+}
+
+.cloud2 .cloud-parts {
+    width: 160px;
+    height: 160px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    right: 30px;
+}
+
+.cloud2 .cloud-parts:before {
+    content: '';
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10px;
+    left: -80px;
+}
+
+.cloud2 .cloud-parts:after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10px;
+    right: -25px;
+}
