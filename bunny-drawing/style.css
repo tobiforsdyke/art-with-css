@@ -256,3 +256,17 @@ body {
     border-radius: 100% 100% 20% 20%;
     transform: rotate(-7deg);
 }
+
+.carrot:after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    /* background-color: #1e8b24; */
+    bottom: -10px;
+    left: 2px;
+    border-top: 2px solid transparent;
+    border-bottom: 10px solid #1e8b24;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
